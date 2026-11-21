@@ -13,5 +13,8 @@ App en React Native con Expo, hecha como pre-entrega.
 - **HomeScreen**: saludo, resumen de tareas y botones. Está creada, pero `App.js` muestra ProfileScreen.
 
 ## Cómo correrlo
+
+```bash
 npm install
 npx expo start
+```
