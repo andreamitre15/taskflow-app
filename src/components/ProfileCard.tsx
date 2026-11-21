@@ -1,6 +1,6 @@
 import { Image, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { COLORS, RADIUS, SPACING } from '../theme/theme';
+import { COLORS, RADIUS, SPACING } from '../constants/theme';
 
 type Props = {
     name: string;

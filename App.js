@@ -6,8 +6,8 @@ import HomeScreen from './src/screens/HomeScreen';
 export default function App() {
   return (
     <>
-      <HomeScreen />
-      {/* <ProfileScreen /> */}
+      <ProfileScreen />
+      {/* <HomeScreen /> */}
       <StatusBar style="dark" />
     </>
   );

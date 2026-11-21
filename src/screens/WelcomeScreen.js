@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import { colors } from '../theme/colors';
+import { colors } from '../constants/colors';
 
 export default function WelcomeScreen() {
   return (

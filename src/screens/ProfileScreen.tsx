@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { COLORS } from '../theme/theme';
+import { COLORS } from '../constants/theme';
 import ProfileCard from '../components/ProfileCard';
 
 const ProfileScreen = () => {

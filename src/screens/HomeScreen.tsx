@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { COLORS, RADIUS, SPACING } from '../theme/theme';
+import { COLORS, RADIUS, SPACING } from '../constants/theme';
 import ProfileCard from '../components/ProfileCard';
 import PrimaryButton from '../components/PrimaryButton';
 
