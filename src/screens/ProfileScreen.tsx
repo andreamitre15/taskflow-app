@@ -5,12 +5,12 @@ import ProfileCard from '../components/ProfileCard';
 
 const ProfileScreen = () => {
   return (
-    <View>
-      <Text style={styles.title}>Mi Perfil</Text>
+    <View style={styles.container}>
+    <Text style={styles.title}>Mi Perfil</Text>
      
-      <ProfileCard name="Andrea Mitre" role="Desarrolladora" image="https://i.pravatar.cc/150?img=1" isActive={true} />
-       <ProfileCard name="Abril C" role="Desarrolladora" image="https://i.pravatar.cc/150?img=12" isActive={false} />
-        <ProfileCard name="Juan Perez" role="Desarrolladora" image="https://i.pravatar.cc/150?img=14" isActive={true} />
+    <ProfileCard name="Andrea Mitre" role="Desarrolladora" image="https://i.pravatar.cc/150?img=1" isActive={true} />
+    <ProfileCard name="Abril C" role="Desarrolladora" image="https://i.pravatar.cc/150?img=12" isActive={false} />
+    <ProfileCard name="Juan Perez" role="Desarrolladora" image="https://i.pravatar.cc/150?img=14" isActive={true} />
     </View>
   );
 };
